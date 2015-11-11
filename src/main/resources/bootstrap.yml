@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: samplesvcs
+  profiles:
+      active: dev
+  cloud:
+    config:
+      env: dev # optional
+      label: master # optional
+      uri: http://localhost:9999
